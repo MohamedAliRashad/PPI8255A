@@ -1,0 +1,28 @@
+Command line:
+   EightBitPort_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53698
+
+Tue Nov 27 17:31:11 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5180.24 Meg
+
+ Total Signals          : 19
+ Total Nets             : 31
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 121
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 5022.96 Meg
+
+Tue Nov 27 17:32:50 2018
+

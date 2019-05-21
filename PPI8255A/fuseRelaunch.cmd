@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Xilinx/Projects/PPI8255A/EightBitPort_tb_isim_beh.exe" -prj "C:/Xilinx/Projects/PPI8255A/EightBitPort_tb_beh.prj" "work.EightBitPort_tb" "work.glbl" 

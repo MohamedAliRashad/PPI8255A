@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml DataBusBuffer.twx DataBusBuffer.ncd -o DataBusBuffer.twr
+DataBusBuffer.pcf
+
+Design file:              DataBusBuffer.ncd
+Physical constraint file: DataBusBuffer.pcf
+Device,package,speed:     xc6slx45t,fgg484,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Enable         |out<0>         |    5.914|
+Enable         |out<1>         |    5.914|
+Enable         |out<2>         |    5.565|
+Enable         |out<3>         |    5.565|
+Enable         |out<4>         |    5.230|
+Enable         |out<5>         |    5.230|
+Enable         |out<6>         |    5.490|
+Enable         |out<7>         |    5.455|
+in<0>          |out<0>         |    5.423|
+in<1>          |out<1>         |    5.375|
+in<2>          |out<2>         |    5.412|
+in<3>          |out<3>         |    5.364|
+in<4>          |out<4>         |    5.423|
+in<5>          |out<5>         |    5.375|
+in<6>          |out<6>         |    5.437|
+in<7>          |out<7>         |    5.364|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 26 14:16:37 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4626 MB
+
+
+

@@ -1,0 +1,202 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ReadWriteControl.twx ReadWriteControl.ncd -o
+ReadWriteControl.twr ReadWriteControl.pcf
+
+Design file:              ReadWriteControl.ncd
+Physical constraint file: ReadWriteControl.pcf
+Device,package,speed:     xc6slx45t,fgg484,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock A0 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+GControl<0> |         7.582(F)|      SLOW  |         4.372(F)|      FAST  |_n0047            |   0.000|
+GControl<1> |         7.582(F)|      SLOW  |         4.372(F)|      FAST  |_n0047            |   0.000|
+Port_A      |         6.285(F)|      SLOW  |         3.465(F)|      FAST  |_n0045            |   0.000|
+Port_B      |         7.314(F)|      SLOW  |         4.125(F)|      FAST  |_n0043            |   0.000|
+Port_C_Lower|         6.533(F)|      SLOW  |         3.694(F)|      FAST  |_n0044            |   0.000|
+Port_C_Upper|         6.533(F)|      SLOW  |         3.694(F)|      FAST  |_n0044            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock A1 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+GControl<0> |         7.598(F)|      SLOW  |         4.385(F)|      FAST  |_n0047            |   0.000|
+GControl<1> |         7.598(F)|      SLOW  |         4.385(F)|      FAST  |_n0047            |   0.000|
+Port_A      |         6.126(F)|      SLOW  |         3.351(F)|      FAST  |_n0045            |   0.000|
+Port_B      |         7.343(F)|      SLOW  |         4.126(F)|      FAST  |_n0043            |   0.000|
+Port_C_Lower|         6.359(F)|      SLOW  |         3.522(F)|      FAST  |_n0044            |   0.000|
+Port_C_Upper|         6.359(F)|      SLOW  |         3.522(F)|      FAST  |_n0044            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock CS to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+GControl<0> |         7.813(F)|      SLOW  |         4.551(F)|      FAST  |_n0047            |   0.000|
+GControl<1> |         7.813(F)|      SLOW  |         4.551(F)|      FAST  |_n0047            |   0.000|
+Port_A      |         6.337(F)|      SLOW  |         3.527(F)|      FAST  |_n0045            |   0.000|
+Port_B      |         7.395(F)|      SLOW  |         4.199(F)|      FAST  |_n0043            |   0.000|
+Port_C_Lower|         6.978(F)|      SLOW  |         3.937(F)|      FAST  |_n0044            |   0.000|
+Port_C_Upper|         6.978(F)|      SLOW  |         3.937(F)|      FAST  |_n0044            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock RD to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+GControl<0> |         6.983(F)|      SLOW  |         3.994(F)|      FAST  |_n0047            |   0.000|
+GControl<1> |         6.983(F)|      SLOW  |         3.994(F)|      FAST  |_n0047            |   0.000|
+Port_A      |         6.348(F)|      SLOW  |         3.479(F)|      FAST  |_n0045            |   0.000|
+Port_B      |         7.036(F)|      SLOW  |         3.991(F)|      FAST  |_n0043            |   0.000|
+Port_C_Lower|         6.729(F)|      SLOW  |         3.707(F)|      FAST  |_n0044            |   0.000|
+Port_C_Upper|         6.729(F)|      SLOW  |         3.707(F)|      FAST  |_n0044            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock Reset to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+GControl<0> |         7.112(F)|      SLOW  |         4.091(F)|      FAST  |_n0047            |   0.000|
+GControl<1> |         7.112(F)|      SLOW  |         4.091(F)|      FAST  |_n0047            |   0.000|
+Port_A      |         6.436(F)|      SLOW  |         3.567(F)|      FAST  |_n0045            |   0.000|
+Port_B      |         7.282(F)|      SLOW  |         4.118(F)|      FAST  |_n0043            |   0.000|
+Port_C_Lower|         6.468(F)|      SLOW  |         3.604(F)|      FAST  |_n0044            |   0.000|
+Port_C_Upper|         6.468(F)|      SLOW  |         3.604(F)|      FAST  |_n0044            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock WR to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+GControl<0> |         7.522(F)|      SLOW  |         4.332(F)|      FAST  |_n0047            |   0.000|
+GControl<1> |         7.522(F)|      SLOW  |         4.332(F)|      FAST  |_n0047            |   0.000|
+Port_A      |         6.230(F)|      SLOW  |         3.424(F)|      FAST  |_n0045            |   0.000|
+Port_B      |         7.342(F)|      SLOW  |         4.118(F)|      FAST  |_n0043            |   0.000|
+Port_C_Lower|         6.293(F)|      SLOW  |         3.492(F)|      FAST  |_n0044            |   0.000|
+Port_C_Upper|         6.293(F)|      SLOW  |         3.492(F)|      FAST  |_n0044            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock A0
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A0             |         |         |    0.699|    0.699|
+A1             |         |         |    0.735|    0.735|
+CS             |         |         |    0.896|    0.896|
+RD             |         |         |    0.898|    0.898|
+Reset          |         |         |    0.528|    0.528|
+WR             |         |         |    0.800|    0.800|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock A1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A0             |         |         |    0.684|    0.684|
+A1             |         |         |    0.898|    0.898|
+CS             |         |         |    0.891|    0.891|
+RD             |         |         |    1.061|    1.061|
+Reset          |         |         |    0.686|    0.686|
+WR             |         |         |    0.785|    0.785|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CS
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A0             |         |         |    0.480|    0.480|
+A1             |         |         |    0.467|    0.467|
+CS             |         |         |    0.677|    0.677|
+RD             |         |         |    0.512|    0.512|
+Reset          |         |         |    0.478|    0.478|
+WR             |         |         |    0.581|    0.581|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RD
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A0             |         |         |    1.266|    1.266|
+A1             |         |         |    1.253|    1.253|
+CS             |         |         |    1.463|    1.463|
+RD             |         |         |    0.734|    0.734|
+Reset          |         |         |    0.797|    0.797|
+WR             |         |         |    1.367|    1.367|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A0             |         |         |    1.143|    1.143|
+A1             |         |         |    1.130|    1.130|
+CS             |         |         |    1.340|    1.340|
+RD             |         |         |    0.958|    0.958|
+Reset          |         |         |    0.674|    0.674|
+WR             |         |         |    1.244|    1.244|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock WR
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A0             |         |         |    0.757|    0.757|
+A1             |         |         |    0.965|    0.965|
+CS             |         |         |    0.958|    0.958|
+RD             |         |         |    1.128|    1.128|
+Reset          |         |         |    0.753|    0.753|
+WR             |         |         |    0.858|    0.858|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Nov 28 11:25:48 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4626 MB
+
+
+

@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.xst" -ofn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.xst" -ofn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.xst" -ofn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 DataBusBuffer.ngc DataBusBuffer.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DataBusBuffer_map.ncd DataBusBuffer.ngd DataBusBuffer.pcf 
+par -w -intstyle ise -ol high -mt off DataBusBuffer_map.ncd DataBusBuffer.ncd DataBusBuffer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DataBusBuffer.twx DataBusBuffer.ncd -o DataBusBuffer.twr DataBusBuffer.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.xst" -ofn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 DataBusBuffer.ngc DataBusBuffer.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DataBusBuffer_map.ncd DataBusBuffer.ngd DataBusBuffer.pcf 
+par -w -intstyle ise -ol high -mt off DataBusBuffer_map.ncd DataBusBuffer.ncd DataBusBuffer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DataBusBuffer.twx DataBusBuffer.ncd -o DataBusBuffer.twr DataBusBuffer.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.xst" -ofn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 DataBusBuffer.ngc DataBusBuffer.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DataBusBuffer_map.ncd DataBusBuffer.ngd DataBusBuffer.pcf 
+par -w -intstyle ise -ol high -mt off DataBusBuffer_map.ncd DataBusBuffer.ncd DataBusBuffer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DataBusBuffer.twx DataBusBuffer.ncd -o DataBusBuffer.twr DataBusBuffer.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.xst" -ofn "C:/Xilinx/Projects/PPI8255A/DataBusBuffer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 DataBusBuffer.ngc DataBusBuffer.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DataBusBuffer_map.ncd DataBusBuffer.ngd DataBusBuffer.pcf 
+par -w -intstyle ise -ol high -mt off DataBusBuffer_map.ncd DataBusBuffer.ncd DataBusBuffer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DataBusBuffer.twx DataBusBuffer.ncd -o DataBusBuffer.twr DataBusBuffer.pcf 

@@ -1,0 +1,45 @@
+ISim log file
+Running: C:\Xilinx\Projects\PPI8255A\EightBitPort_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/Projects/PPI8255A/EightBitPort_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+0 , 0 , zzzzzzzz , 00000001
+0 , 1 , zzzzzzzz , 00000001
+1 , 1 , 00000001 , 00000001
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+0 , 0 , 00000000 , zzzzzzzz
+1 , 0 , 00000000 , 00000000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+0 , 0 , 00000000 , zzzzzzzz
+1 , 0 , 00000000 , 00000000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+0 , 0 , 00000011 , 00000000
+1 , 0 , 00000011 , 000000xx
+0 , 0 , 00000011 , 00000000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+0 , 0 , 00000101 , zzzzzzzz
+1 , 0 , 00000101 , 00000101
+0 , 0 , 00000101 , zzzzzzzz
+0 , 1 , 00000101 , zzzzzzzz
+1 , 1 , 00000101 , 00000101

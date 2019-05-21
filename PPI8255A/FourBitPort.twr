@@ -1,0 +1,205 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml FourBitPort.twx FourBitPort.ncd -o FourBitPort.twr
+FourBitPort.pcf
+
+Design file:              FourBitPort.ncd
+Physical constraint file: FourBitPort.pcf
+Device,package,speed:     xc6slx45t,fgg484,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock DataBus<1>
+------------+------------+------------+------------+------------+---------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                           | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)          | Phase  |
+------------+------------+------------+------------+------------+---------------------------+--------+
+DataBus<0>  |    0.811(F)|      SLOW  |    0.022(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_10_o|   0.000|
+            |    0.702(F)|      SLOW  |    0.147(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+            |    0.300(F)|      FAST  |    0.751(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+            |    0.290(F)|      FAST  |    0.674(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_9_o |   0.000|
+PortBus<0>  |    0.459(F)|      SLOW  |    0.378(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+PortBus<1>  |    0.460(F)|      SLOW  |    0.354(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_10_o|   0.000|
+PortBus<2>  |    0.122(F)|      FAST  |    0.830(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_9_o |   0.000|
+PortBus<3>  |    0.262(F)|      FAST  |    0.752(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+------------+------------+------------+------------+------------+---------------------------+--------+
+
+Setup/Hold to clock DataBus<2>
+------------+------------+------------+------------+------------+---------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                           | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)          | Phase  |
+------------+------------+------------+------------+------------+---------------------------+--------+
+DataBus<0>  |    0.527(F)|      SLOW  |    0.318(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_10_o|   0.000|
+            |    0.418(F)|      SLOW  |    0.443(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+            |    0.176(F)|      FAST  |    0.904(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+            |    0.166(F)|      FAST  |    0.827(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_9_o |   0.000|
+PortBus<0>  |    0.236(F)|      FAST  |    0.674(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+PortBus<1>  |    0.176(F)|      SLOW  |    0.650(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_10_o|   0.000|
+PortBus<2>  |   -0.002(F)|      FAST  |    0.983(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_9_o |   0.000|
+PortBus<3>  |    0.138(F)|      FAST  |    0.905(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+------------+------------+------------+------------+------------+---------------------------+--------+
+
+Setup/Hold to clock GroupControl<0>
+------------+------------+------------+------------+------------+---------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                           | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)          | Phase  |
+------------+------------+------------+------------+------------+---------------------------+--------+
+DataBus<0>  |    0.658(F)|      SLOW  |    0.177(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_10_o|   0.000|
+            |    0.549(F)|      SLOW  |    0.302(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+            |    0.270(F)|      FAST  |    0.749(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+            |    0.260(F)|      FAST  |    0.672(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_9_o |   0.000|
+PortBus<0>  |    0.329(F)|      FAST  |    0.533(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+PortBus<1>  |    0.307(F)|      SLOW  |    0.509(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_10_o|   0.000|
+PortBus<2>  |    0.092(F)|      FAST  |    0.828(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_9_o |   0.000|
+PortBus<3>  |    0.232(F)|      FAST  |    0.750(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+------------+------------+------------+------------+------------+---------------------------+--------+
+
+Setup/Hold to clock GroupControl<1>
+------------+------------+------------+------------+------------+---------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                           | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)          | Phase  |
+------------+------------+------------+------------+------------+---------------------------+--------+
+DataBus<0>  |    0.107(R)|      FAST  |    1.336(R)|      SLOW  |GroupControl_1_IBUF_BUFG   |   0.000|
+            |   -2.473(F)|      FAST  |    5.023(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_10_o|   0.000|
+            |   -2.503(F)|      FAST  |    5.148(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+            |   -2.614(F)|      FAST  |    5.372(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+            |   -2.624(F)|      FAST  |    5.295(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_9_o |   0.000|
+DataBus<3>  |    0.372(R)|      FAST  |    0.974(R)|      SLOW  |GroupControl_1_IBUF_BUFG   |   0.000|
+PortBus<0>  |   -2.675(F)|      FAST  |    5.379(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+PortBus<1>  |   -2.741(F)|      FAST  |    5.355(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_10_o|   0.000|
+PortBus<2>  |   -2.792(F)|      FAST  |    5.451(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_9_o |   0.000|
+PortBus<3>  |   -2.652(F)|      FAST  |    5.373(F)|      SLOW  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+------------+------------+------------+------------+------------+---------------------------+--------+
+
+Clock DataBus<1> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                           | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)          | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+DataBus<0>  |         6.269(F)|      SLOW  |         3.450(F)|      FAST  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+DataBus<3>  |         6.651(F)|      SLOW  |         3.631(F)|      FAST  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+
+Clock DataBus<2> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                           | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)          | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+DataBus<0>  |         6.565(F)|      SLOW  |         3.664(F)|      FAST  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+DataBus<3>  |         6.804(F)|      SLOW  |         3.755(F)|      FAST  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+
+Clock GroupControl<0> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                           | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)          | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+DataBus<0>  |         6.424(F)|      SLOW  |         3.571(F)|      FAST  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+DataBus<3>  |         6.649(F)|      SLOW  |         3.661(F)|      FAST  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+
+Clock GroupControl<1> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                           | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)          | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+DataBus<0>  |        11.270(F)|      SLOW  |         6.575(F)|      FAST  |GND_1_o_DataBus[2]_MUX_11_o|   0.000|
+DataBus<3>  |        11.272(F)|      SLOW  |         6.545(F)|      FAST  |GND_1_o_DataBus[2]_MUX_8_o |   0.000|
+PortBus<0>  |         6.303(R)|      SLOW  |         3.186(R)|      FAST  |GroupControl_1_IBUF_BUFG   |   0.000|
+PortBus<1>  |         6.303(R)|      SLOW  |         3.186(R)|      FAST  |GroupControl_1_IBUF_BUFG   |   0.000|
+PortBus<2>  |         6.303(R)|      SLOW  |         3.186(R)|      FAST  |GroupControl_1_IBUF_BUFG   |   0.000|
+PortBus<3>  |         6.303(R)|      SLOW  |         3.186(R)|      FAST  |GroupControl_1_IBUF_BUFG   |   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------+--------+
+
+Clock to Setup on destination clock DataBus<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+GroupControl<1>|         |         |    5.345|    5.345|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DataBus<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+GroupControl<1>|         |         |    5.061|    5.061|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock GroupControl<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+GroupControl<1>|         |         |    5.192|    5.192|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock GroupControl<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+DataBus<1>     |    0.142|    0.142|         |         |
+DataBus<2>     |    0.394|    0.394|         |         |
+GroupControl<0>|    0.660|    0.660|         |         |
+GroupControl<1>|         |         |    0.600|    0.600|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ControlEnable  |DataBus<0>     |    6.371|
+ControlEnable  |DataBus<1>     |    6.371|
+ControlEnable  |DataBus<2>     |    6.154|
+ControlEnable  |DataBus<3>     |    6.154|
+ControlEnable  |PortBus<0>     |    5.989|
+ControlEnable  |PortBus<1>     |    5.989|
+ControlEnable  |PortBus<2>     |    6.128|
+ControlEnable  |PortBus<3>     |    6.128|
+GroupControl<0>|DataBus<0>     |    6.448|
+GroupControl<0>|DataBus<1>     |    6.448|
+GroupControl<0>|DataBus<2>     |    6.231|
+GroupControl<0>|DataBus<3>     |    6.231|
+GroupControl<0>|PortBus<0>     |    6.066|
+GroupControl<0>|PortBus<1>     |    6.066|
+GroupControl<0>|PortBus<2>     |    6.205|
+GroupControl<0>|PortBus<3>     |    6.205|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 26 13:10:15 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4626 MB
+
+
+

@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml EightBitPort.twx EightBitPort.ncd -o EightBitPort.twr
+EightBitPort.pcf
+
+Design file:              EightBitPort.ncd
+Physical constraint file: EightBitPort.pcf
+Device,package,speed:     xc6slx45t,fgg484,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ControlEnable  |DataBus<0>     |    5.965|
+ControlEnable  |DataBus<1>     |    5.904|
+ControlEnable  |DataBus<2>     |    5.900|
+ControlEnable  |DataBus<3>     |    5.900|
+ControlEnable  |DataBus<4>     |    5.665|
+ControlEnable  |DataBus<5>     |    5.777|
+ControlEnable  |DataBus<6>     |    5.936|
+ControlEnable  |DataBus<7>     |    6.048|
+ControlEnable  |Port<0>        |    5.358|
+ControlEnable  |Port<1>        |    5.358|
+ControlEnable  |Port<2>        |    5.719|
+ControlEnable  |Port<3>        |    5.424|
+ControlEnable  |Port<4>        |    5.545|
+ControlEnable  |Port<5>        |    5.545|
+ControlEnable  |Port<6>        |    5.649|
+ControlEnable  |Port<7>        |    5.777|
+DataBus<0>     |Port<0>        |    6.774|
+DataBus<1>     |Port<1>        |    6.356|
+DataBus<2>     |Port<2>        |    6.417|
+DataBus<3>     |Port<3>        |    6.216|
+DataBus<4>     |Port<4>        |    6.740|
+DataBus<5>     |Port<5>        |    6.447|
+DataBus<6>     |Port<6>        |    7.239|
+DataBus<7>     |Port<7>        |    7.500|
+GroupControl   |DataBus<0>     |    6.768|
+GroupControl   |DataBus<1>     |    6.714|
+GroupControl   |DataBus<2>     |    6.653|
+GroupControl   |DataBus<3>     |    6.586|
+GroupControl   |DataBus<4>     |    6.667|
+GroupControl   |DataBus<5>     |    6.608|
+GroupControl   |DataBus<6>     |    7.924|
+GroupControl   |DataBus<7>     |    7.881|
+GroupControl   |Port<0>        |    6.792|
+GroupControl   |Port<1>        |    6.714|
+GroupControl   |Port<2>        |    6.813|
+GroupControl   |Port<3>        |    6.419|
+GroupControl   |Port<4>        |    6.932|
+GroupControl   |Port<5>        |    6.853|
+GroupControl   |Port<6>        |    7.895|
+GroupControl   |Port<7>        |    8.069|
+Port<0>        |DataBus<0>     |    6.497|
+Port<1>        |DataBus<1>     |    6.442|
+Port<2>        |DataBus<2>     |    6.438|
+Port<3>        |DataBus<3>     |    6.167|
+Port<4>        |DataBus<4>     |    6.517|
+Port<5>        |DataBus<5>     |    6.221|
+Port<6>        |DataBus<6>     |    7.508|
+Port<7>        |DataBus<7>     |    7.139|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Nov 27 17:23:35 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4626 MB
+
+
+

@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/GroupControl.xst" -ofn "C:/Xilinx/Projects/PPI8255A/GroupControl.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/GroupControl.xst" -ofn "C:/Xilinx/Projects/PPI8255A/GroupControl.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/GroupControl.xst" -ofn "C:/Xilinx/Projects/PPI8255A/GroupControl.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/GroupControl.xst" -ofn "C:/Xilinx/Projects/PPI8255A/GroupControl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 GroupControl.ngc GroupControl.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GroupControl_map.ncd GroupControl.ngd GroupControl.pcf 
+par -w -intstyle ise -ol high -mt off GroupControl_map.ncd GroupControl.ncd GroupControl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GroupControl.twx GroupControl.ncd -o GroupControl.twr GroupControl.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/GroupControl.xst" -ofn "C:/Xilinx/Projects/PPI8255A/GroupControl.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/PPI8255A/GroupControl.xst" -ofn "C:/Xilinx/Projects/PPI8255A/GroupControl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 GroupControl.ngc GroupControl.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GroupControl_map.ncd GroupControl.ngd GroupControl.pcf 
+par -w -intstyle ise -ol high -mt off GroupControl_map.ncd GroupControl.ncd GroupControl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GroupControl.twx GroupControl.ncd -o GroupControl.twr GroupControl.pcf 
